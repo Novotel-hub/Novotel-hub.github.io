@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <title>Etlap</title>
+    <style>
+        body {
+            background-color: rgb(182, 236, 182);
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .footer {
+            background-color: #000000;
+            padding: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/fooldal.html">Hamburger</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-itemactive">
+                    <a class="nav-link" href="Pages/about.html">Etlap  <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Pages/About.html">Rendeles</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="Pages/contact.html">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Pages/login.html">Bejelentkezes</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="header">
+        <h1>Etlap</h1>
+        <p>A rendeleshez be kell jelentkezned!</p>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h2>Hamburgerek</h2>
+            <li>Hamburger</li>
+            <li>Sajtos Hamburger</li>
+            <li>Dupla Hamburger</li>
+            <li>Vega Hamburger</li>
+        </div>
+
+        <div class="column">
+            <h2>Feltetek</h2>
+            <Li>Sajt</Li>
+            <Li>Uborka</Li>
+            <Li>Bacon</Li>
+            <Li>Pepperoni</Li>
+        </div>
+
+        <div class="column">
+            <h2>Szoszok</h2>
+            <Li>Ketchup</Li>
+            <Li>Majonez</Li>
+            <Li>Mustar</Li>
+            <Li>Pitosarany</Li>
+        </div>
+
+        <div class="column">
+            <h2>Uditok</h2>
+            <Li>Cpca-Cola, Fanta, Tonic</Li>
+            <Li>Rostos Barack (25%)</Li>
+            <Li>Mentes Asvanyviz</Li>
+            <Li>Asvanyviz</Li>
+        </div>
+        <div class="column">
+            <h2>Koretek</h2>
+            <Li>Sultkrumpli</Li>
+            <Li>Roszti</Li>
+            <Li>Zoldsegtal</Li>
+        </div>
+        <div class="column">
+            <h2>Desszertek</h2>
+            <Li>Vanilia fagyi</Li>
+            <Li>Somloi galuska</Li>
+            <Li>Gesztenyepure</Li>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="bt.html">Rendeles</a>
+        <a href="login.html">Bejelenkezes</a>
+    </div>
+
+</body>
+
+</html>

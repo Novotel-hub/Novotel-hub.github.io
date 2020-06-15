@@ -1,0 +1,10 @@
+#colorDiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #00ff00;
+}
+
+html {
+    background: url("../kep/mandala2.jpg") no-repeat;
+}
